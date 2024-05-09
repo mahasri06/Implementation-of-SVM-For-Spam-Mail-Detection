@@ -55,6 +55,10 @@ svc = SVC()
 svc.fit(x_train, y_train)
 y_pred = svc.predict(x_test)
 y_pred
+
+from sklearn import metrics
+accuracy = metrics.accuracy_score(y_test, y_pred)
+accuracy
 ```
 
 ## Output:
@@ -67,6 +71,10 @@ y_pred
 
 ### predicated values:
 ![image](https://github.com/Sajetha13/Implementation-of-SVM-For-Spam-Mail-Detection/assets/138849316/c2cedf4c-ad25-4a36-894c-5aee73795752)
+
+### accuracy:
+![image](https://github.com/Sajetha13/Implementation-of-SVM-For-Spam-Mail-Detection/assets/138849316/77afa0be-394f-4c1c-bf3b-6310aa991993)
+
 
 
 ## Result:
