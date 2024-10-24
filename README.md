@@ -8,17 +8,31 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Data Preparation: Load and handle the dataset, separating features and target variables.
-2. Data Splitting: Split the dataset into training and testing sets.
-3. Feature Engineering: Transform text data into numerical feature vectors.
-4. Model Building and Evaluation: Initialize SVM classifier, train the model, and predict target labels for evaluation.
+step 1: start
+
+
+step 2: Data Preparation: Load and handle the dataset, separating features and target variables.
+
+
+step 3: Data Splitting: Split the dataset into training and testing sets.
+
+ 
+ 
+step 4: Feature Engineering: Transform text data into numerical feature vectors.
+
+ 
+ 
+step 5: Model Building and Evaluation: Initialize SVM classifier, train the model, and predict target labels for evaluation.
+
+
+step 6: End
 
 ## Program:
 ```
 /*
 Program to implement the SVM For Spam Mail Detection..
-Developed by: S.Sajetha
-RegisterNumber: 212223100049 
+Developed by: Mahasri P
+RegisterNumber: 212223100029 
 */
 ```
 ```
@@ -63,7 +77,7 @@ y_pred
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 acc=accuracy_score(y_test, y_pred)
-acc
+print(acc)
 
 con=confusion_matrix(y_test,y_pred)
 print(con)
